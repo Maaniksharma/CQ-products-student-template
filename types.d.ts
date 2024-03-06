@@ -17,4 +17,4 @@ type hanlderValue = {
 };
 
 
-type handler = Map<string, hanlderValue>;
+type handler = {[key: string]: hanlderValue}
